@@ -5,9 +5,8 @@
     Colorschemes,
     LSP stuff, autocompletion, lualine, alpha lua, Neotree, live-server, treesitter, telescope ...
 # Installation 
-    => First of all backup or remove any existing config :
-        rm -rf ~/.config/nvim 
-        rm -rf ~/.local/share/nvim 
+    
+    git clone git@github.com:diasbouk/NvDias.git && nvim
     
     Then:
         git clone https://github.com/diasbouk/NvD.git ~/.config/nvim &&nvim 
