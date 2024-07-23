@@ -7,7 +7,9 @@
     LSP stuff, autocompletion, lualine, alpha lua, Neotree, live-server, treesitter, telescope ...
 # Installation 
     
-    git clone git@github.com:diasbouk/NvDias.git && nvim
+    rm -rf ~/.config/nvim
+    rm -rf ~/.local/share/nvim
+    git clone git@github.com:diasbouk/NvDias.git  ~/.config/nvim && nvim
     
 
 # Setup 
